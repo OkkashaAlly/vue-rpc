@@ -40,11 +40,11 @@ export default {
       }
     }
   },
-  data() {
-    return {
-      connected: false
-    }
-  }
+  // data() {
+  //   return {
+  //     connected: false
+  //   }
+  // }
 }
 </script>
 
@@ -52,9 +52,9 @@ export default {
 
   <div>
     <!-- connect-wallet button is visible if the wallet is not connected -->
-    <button v-if="!connected" @click="connect">Connect wallet</button>
+    <!-- <button v-if="!connected" @click="connect">Connect wallet</button> -->
     <!-- call-contract button is visible if the wallet is connected -->
-    <button v-if="connected" @click="addPolygonNetwork">Add Polygon Network</button>
+    <button @click="addPolygonNetwork">Add Polygon Network</button>
   </div>
 </template>
 
