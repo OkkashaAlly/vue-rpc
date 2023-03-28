@@ -49,9 +49,6 @@ export default {
 </script>
 
 <template>
-  <div class="greetings">
-    <button @click="addPolygonNetwork">Add Polygon Network</button>
-  </div>
 
   <div>
     <!-- connect-wallet button is visible if the wallet is not connected -->
